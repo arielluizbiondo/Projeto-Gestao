@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ProjetoGestaoTads" default="default" basedir=".">
+    <description>Builds, tests, and runs the project ProjetoGestaoTads.</description>
+
+    <!-- Importa o script padrão do NetBeans -->
+    <import file="nbproject/build-impl.xml"/>
+
+    <!-- Adiciona a mainClass no momento de gerar o JAR -->
+    <target name="-post-jar">
+        <jar jarfile="${dist.jar}" update="true">
+            <manifest>
+                <attribute name="Main-Class" value="view.Login"/>
+            </manifest>
+        </jar>
+    </target>
+
+</project>
