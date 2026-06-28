@@ -1,4 +1,4 @@
-# 🖥️ Sistema de Gestão - Java Swing
+# 🖥️ Sistema de Gestão - Java
 
 Sistema desktop de cadastro e gerenciamento de clientes e produtos desenvolvido com Java, MySQL e JasperReports para fins de estudo em desenvolvimento de aplicações desktop.
 
